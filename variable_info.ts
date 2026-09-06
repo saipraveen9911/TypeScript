@@ -16,22 +16,7 @@
 //var var_variable = "i am var in global location";
 //let let_variable = "I am let in global location";
 //const CONST_VARIABLE = "i am const in global Location";
-//function funscope() {
-// /* var is functional scope
-// means var declared in function can be accessed every where in function
-// */
 
-//   if (true) {
-//     // declaring the variable
-//     var var_variable = "I am var in functional(if block)";
-
-//     // prinitng the data on console with in the block
-//     console.log(var_variable);
-//   }
-//   // prinitng the data on console which can be acccessed out side the block
-//   console.log(var_variable);
-// }
-// funscope();
 
 /*
 //Example 2. named function block scope
@@ -68,20 +53,3 @@ function allscope() {
 
 */
 
-function blockscope() {
-  if (true) {
-    let let_variable = "I am let inside function outside if location";
-    const CONST_VARIABLE = "I am CONST inside function outside if location";
-
-    console.log("LET:", let_variable);
-    console.log();
-    console.log("CONST:", CONST_VARIABLE);
-    console.log();
-  }
-  // console.log("LET:", let_variable); // since it is block scope so we cannot access the value
-  // console.log();
-  // console.log("CONST:", CONST_VARIABLE); // since it is block scope so we cannot access the value
-  // console.log();
-}
-
-blockscope();
