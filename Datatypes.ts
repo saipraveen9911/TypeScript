@@ -37,7 +37,7 @@ anyvariable = true;
 anyvariable = null;
 anyvariable = undefined;
 
-console.log(anyvariable);
+console.log(`I am any datatype avariable having value: ${anyvariable}`);
 
 // union data type
 let union: number | string | boolean;
