@@ -30,3 +30,21 @@ console.log(isemployee);
 console.log(lostjob);
 
 // any datatype
+let anyvariable: any;
+anyvariable = 10;
+anyvariable = "hello";
+anyvariable = true;
+anyvariable = null;
+anyvariable = undefined;
+
+console.log(anyvariable);
+
+// union data type
+let union: number | string | boolean;
+union = 10;
+union = "hello";
+union = true;
+
+// null and undefined
+let nullvalue: null = null;
+let undefinedvalue: undefined = undefined;
