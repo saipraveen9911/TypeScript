@@ -12,7 +12,7 @@ let array1: Array<string> = [];
 // declaring the array using Generic Array type with multiple datatype(union datatype)
 let array2: Array<number | string | boolean> = [];
 
-// adding th eelemets to array
+// adding the elements to array
 array[0] = 1122;
 array[1] = 30303;
 
