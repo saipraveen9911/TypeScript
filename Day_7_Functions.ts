@@ -6,8 +6,22 @@
     1.b. Named function with parameter and return type
     1.c. Named function without parameter and with return type
     1.d. Named function parameter and  with out return type
+    1.e. named function with rest parameters
+    1.f. Named function with optional parameters
 2. Anonymous Function
+    2.a. Anonymus function without parameter and  return type
+    2.b. Anonymus function with parameter and return type
+    2.c. Anonymus function without parameter and with return type
+    2.d. Anonymus function parameter and  with out return type
+    2.e. Anonymus function with rest parameters
+    2.f. Anonymus function with optional parameters
 3. Arrow Function/Lambda Function => used for playwright
+    3.a. Arrow function without parameter and  return type
+    3.b. Arrow function with parameter and return type
+    3.c. Arrow function without parameter and with return type
+    3.d. Arrow function parameter and  with out return type
+    3.e. Arrow function with rest parameters
+    3.f. Arrow function with optional parameters
 */
 
 //1. Named function
