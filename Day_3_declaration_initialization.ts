@@ -31,7 +31,7 @@ function declaration_initialization() {
   // initilaization or re-asignment
   second = "string";
 
-  // constant must be initilaized along with declaration
+  // constant must be initilaized along with declaration 
   const constant: string = "myconst";
 }
 
