@@ -1,5 +1,21 @@
-// for loop, while loop , do while
+/* for loop, while loop , do while
+for loop: it used to iterate the statement for given condition
+for(declaration&initialization;condition;increment)
+{
+//statement}
 
+while loop: the statement inside the whle loop wnen the contionis true
+while(condition)
+{
+//statement
+}
+
+do-while: the statement execute atleast once before checking the condition
+do {
+//statement
+}while(condition)
+
+*/
 console.log("################### for Loop ###################");
 // for loop
 function for_loop(n: number) {
