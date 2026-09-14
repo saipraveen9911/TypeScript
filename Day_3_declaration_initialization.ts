@@ -11,7 +11,9 @@ let & const :   doesnt allow redeclaration
 var,let     : can be reassigned
 const       : cannot re assign the value
 
-5. hosting
+5. hosting : it is initial state of variable
+var         : undefined
+let & const : Not initialized state
 */
 
 function declaration_initialization() {
