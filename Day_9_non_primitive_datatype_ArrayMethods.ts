@@ -32,7 +32,7 @@ function Array_Methods() {
   console.log(`The updated array is ${studentarray}`);
   console.log();
 
-  //slice  Syntax: array,slice(start index,endindex) // output from index start to endeindex-1
+  //slice  Syntax: array.slice(start index,endindex) // output from index start to endeindex-1
   let sliceelements = studentarray.slice(1, 4); // endindex is Excluded in slice method and should be assigned to variable
   console.log(`The Sliced array is from index 1 to index 3 ${sliceelements}`);
 
@@ -44,7 +44,7 @@ function Array_Methods() {
 
   //splice method
   /*To add or remove elements from array
-Syntax : Arrya.splice(startindex,deleteingcount,additem1,additem2...) 
+Syntax : Array.splice(startindex,deleteingcount,additem1,additem2...) 
 */
 
   let myarray: string[] = ["Praveen", "Renuka", "Laxmi", "Satya", "Sanjana"];
