@@ -1,45 +1,55 @@
-/* 2. Declaration:
+/* 2. Declaration & initialization:
 
-var,let : can be declared with out initialization.
-const : must be initialized at the time of declaration
+var,let : can be declared with or without initialization.
+const   : must be initialized at the time of declaration
 
+  3. redeclaration
+var         :   allows redeclaration should be same datatype
+let & const :   doesnt allow redeclaration
 
+4. reassignment
+var,let     : can be reassigned
+const       : cannot re assign the value
+*/
 
-let value; // undefined. // declaration
-console.log(value);
-value = 0; // initialization
-console.log(value);
+function declaration_initialization() {
+  // declaration
+  var first;
 
-const newyear = 2026; //must be initilized
+  // output: Undefined because value is not initialized and
+  // it is any data type by default
+  console.log(`the value of variable ${first}`);
+  // initialization
+  first = 10;
 
-/* 3. redeclaration
+  let second;
+  // output: Undefined because value is not initialized
+  console.log(`the value of variable ${second}`);
+
+  // initilaization or re-asignment
+  second = "string";
+
+  // constant must be initilaized along with declaration
+  const constant: string = "myconst";
+}
+
+declaration_initialization();
+
+function Re_declaration_Re_initialization() {
+  /* 3. redeclaration
 var allows redeclaration
 let & const doesnt allow redeclaration
 */
-/*
-let empname = "babu"; // declation & initilization
-empname = "praveen"; // Re assignment
-//let empname = "sai"; //doesnt allow re declaration
+  var first = 100;
+  let second = "babu";
+  const constant: string = "myconst";
 
-const empno = 100;
-//const empno = 1000; // doesnt allow re declaration
+  var first = 1000; // Re-declaration  is possible but should be same datatype
+  // let second;  // using let we cannot redeclare variable
+  // const constant:string="myconst"; // using const we cannot redeclare variable
 
-//empno = 102; // cannot re assign value to const variable
-*/
-/*
-var a;
-let b;
-//const z;
-
-console.log(a);
-console.log(b);
-
-*/
-function declaration_initialization()
-{
-    var first; // declaration
-    console.log(`the value of variable ${first}`)
-    first = 10; // initialization
+  first = 1000000; //Re-assignment
+  second = "praveen"; //Re-assignment
+  //constant="king";  // Re-assignment is not possible for Constant
 }
-
-declaration_initialization()
+Re_declaration_Re_initialization();
