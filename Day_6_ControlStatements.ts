@@ -35,8 +35,6 @@ function if_statement() {
 }
 
 
-
-
 function switch_statement(n:number) {
   
   switch (n) {
