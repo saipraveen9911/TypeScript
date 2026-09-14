@@ -2,10 +2,8 @@
 
 var,let : can be declared with out initialization.
 const : must be initialized at the time of declaration
-*/
-/*
-var first; // declaration
-first = 10; // initialization
+
+
 
 let value; // undefined. // declaration
 console.log(value);
@@ -28,9 +26,20 @@ const empno = 100;
 
 //empno = 102; // cannot re assign value to const variable
 */
+/*
 var a;
 let b;
 //const z;
 
 console.log(a);
 console.log(b);
+
+*/
+function declaration_initialization()
+{
+    var first; // declaration
+    console.log(`the value of variable ${first}`)
+    first = 10; // initialization
+}
+
+declaration_initialization()
