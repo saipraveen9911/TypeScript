@@ -48,3 +48,8 @@ union = true;
 // null and undefined
 let nullvalue: null = null;
 let undefinedvalue: undefined = undefined;
+
+// void : it is used for function only indcates that it is not returning value
+function myfunction():void{
+    //statements
+}
