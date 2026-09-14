@@ -81,4 +81,4 @@ function allscope() {
   // CONST is block scope so newly assigned value is not updated
   console.log(CONST_VARIABLE);
 }
-//allcope();
+allscope();
