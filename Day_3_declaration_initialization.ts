@@ -7,9 +7,11 @@ const   : must be initialized at the time of declaration
 var         :   allows redeclaration should be same datatype
 let & const :   doesnt allow redeclaration
 
-4. reassignment
+4. re-initialization or re-assignment
 var,let     : can be reassigned
 const       : cannot re assign the value
+
+5. hosting
 */
 
 function declaration_initialization() {
