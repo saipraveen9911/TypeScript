@@ -60,3 +60,65 @@ Syntax : Array.splice(startindex,deleteingcount,additem1,additem2...)
 
 //Assignment print the tuple values using for-in, for-off loops
 // Assignment: take new array using all the array methods
+
+
+//indexof => finds the index of particular element
+let studentarray: Array<string> = [
+    "Praveen",
+    "Renuka",
+    "Laxmi",
+    "Satya",
+    "Sanjana",
+  ];
+
+  /*
+  console.log(`the index of elemet 'Laxmi' is ${studentarray.indexOf("Laxmi")}`)
+  console.log(studentarray.indexOf("Mr.X")) // if element not available it return -1
+  console.log(studentarray.indexOf("Laxmi",1)) // it starts searching from index: 1 
+*/
+
+  //includes method
+ // console.log(studentarray.includes("Satya")) // return the boolean value. if present = true
+ //console.log(studentarray.includes("Mr.X")) 
+
+ //tostring
+ 
+ 
+/*
+ let tostring=Numberarray.toString()
+
+ console.log(tostring)
+
+ let arraystr:Array<string> =['H','e','l','l','o']
+
+ console.log(arraystr)
+
+ let c=arraystr.toString()
+
+ console.log(c)
+*/
+ //map method***
+ //take input as array and performs actiona and returns array
+
+ let lowerarray:Array<string>=["praveen",
+    "renuka",
+    "laxmi",
+    "satya",
+    "sanjana"]
+
+    
+    let UpperArray=lowerarray.map((newarray) =>{
+      return newarray.toUpperCase()
+    } )
+    console.log(UpperArray)
+
+     let result2=lowerarray.map((newarray) => newarray.toUpperCase() )
+     console.log(result2)
+      
+let Numberarray: number[] = [2, 5, 4, 7, 9];
+    let result = Numberarray.map((num)=>{
+      return num*2
+    })
+console.log(result)
+
+
