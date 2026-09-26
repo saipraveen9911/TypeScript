@@ -29,6 +29,13 @@ The goal is not just to learn TypeScript syntax, but to understand how TypeScrip
 
 ---
 
+<details>
+  <summary> <b> Typescript Practise Questions </b> </summary>
+
+
+</details>
+
+
 # 🗺️ TypeScript Learning Roadmap
 
 ```mermaid
